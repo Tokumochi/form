@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8">
+    <title>登録フォーム</title>
+    <link rel="stylesheet" href="./css/bulma.min.css"
+  </head>
+  <body>
+    <!-- ヘッダー -->
+    <header>
+      <nav role="navigation" aria-label="main navigation">
+        <p>Goagle</p>
+      </nav>
+    </header>
+    <!-- メイン -->
+    <main>
+      <h1>会員登録フォーム</h1>
+
+      <!-- 登録フォーム -->
+      <form>
+        <div class="columns">
+          <div class="column">
+           <!-- 名前入力 -->
+            <label>お名前</label> <input type="text" placeholder="Name">
+
+           <!-- メールアドレス入力 -->
+           <label>メールアドレス</label> <input type="email" placeholder="Email">
+
+           <!-- パスワード入力 -->
+           <label>パスワード</label>
+           <input type="password" placeholder="Password">
+           <p>大文字小文字記号を1つ以上含めて30文字以上</p>
+
+            <!-- 性別選択 -->
+            <p>性別</p>
+            <label> <input type="radio" name="gen"> 男 </label>
+            <label> <input type="radio" name="gen"> 女 </label>
+
+           <!-- 利用規約に同意 -->
+            <label> <input type="checkbox" required> 利用規約に同意する </label>
+
+           <!-- 送信ボタン -->
+           <input type="submit">
+          </div>
+        </div>
+
+        <div class="columns is-centered">
+            <div class="column is-1"><button class="button is-primary">aaa</button></div>
+        </div>
+      </form>
+    </main>
+
+    <!-- フッター -->
+    <footer><small>&copy;2018 情報処理研究会</small></footer>
+  </body>
+</html>
